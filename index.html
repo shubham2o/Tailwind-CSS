@@ -4,8 +4,45 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tailwind CSS</title>
+    <link
+      rel="icon"
+      href="https://img.icons8.com/?size=80&id=WoopfRcDj3RF&format=png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="main w-full h-screen bg-white font-['montserrat']">
+      <div class="container mx-auto">
+        <div class="navbar w-full px-4 py-6 flex justify-between items-center">
+          <h3 class="font-semibold">neganou.design</h3>
+
+          <div class="links hidden lg:flex gap-10">
+            <a class="text-sm" href="#">Work</a>
+            <a class="text-sm opacity-60" href="#">Services</a>
+            <a class="text-sm opacity-60" href="#">Contact</a>
+            <a class="text-sm opacity-60" href="#">Pricing</a>
+          </div>
+
+          <i class="ri-menu-5-line lg:hidden"></i>
+        </div>
+
+        <div class="w-full flex justify-center items-center mt-20">
+          <div
+            class="image w-24 h-24 rounded-full p-1.5 flex justify-center items-center bg-fuchsia-400"
+          >
+            <img
+              class="w-full h-full object-cover rounded-full"
+              src="https://i.pinimg.com/236x/5a/32/fb/5a32fbd9079883b1c6b7356ba16e3146.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
